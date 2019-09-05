@@ -1,3 +1,3 @@
 jQuery ->
-  $("a[rel~=popover], .has-popover").popover()
-  $("a[rel~=tooltip], .has-tooltip").tooltip()
+  $("a[rel~=popover], .has-popover").jQuery.noConflict().popover()
+  $("a[rel~=tooltip], .has-tooltip").jQuery.noConflict().tooltip()
